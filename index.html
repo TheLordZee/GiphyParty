@@ -10,11 +10,17 @@
 <body class="bg-dark">
   <div class="container text-center">
     <h1 class="display-1 text-light">Giphy Party!</h1>
-    <form action="" id="search" class="align-contents-center">
+    <form action="" id="search" class="align-contents-center d-inline">
       <input class="p-1" type="text" placeholder="Enter Search Term" id="searchTerm">
       <button type="submit" id="searchBtn" class="btn btn-primary">Search Giphy!</button>
-      <button id="deleteBtn" class="btn btn-danger">Remove Images!</button>
     </form>
+    <button id="delete" class="btn btn-danger">Remove Images!</button>
+  </div>
+
+  <div class="container-fluid" id="gifs">
+    <div class="row" id="gif-row">
+
+    </div>
   </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
